@@ -1,0 +1,29 @@
+* link Website mẫu:  https://www.w3schools.com/w3css/tryw3css_templates_band.htm          (one pase)
+
+- Các bước làm:
+    1. Phân tích
+        1. Header
+        2. Slider
+        3. Container (Chứa content)
+        3. Content
+            1. About (giới thiệu)
+            2. Tour
+            3. Contact
+            4. Image
+            5. Footer
+        4. Footer
+    2. Dựng base (xây móng)
+    3. Xây dựng từng phần theo phân tích
+    4. Hoàn thiện
+
+*----Tên các thành phần---*
+1. Header (đầu trang)
+2. Navigation (điều hướng)
+3. Breadcrumb (cho chúng ta biết đang ở đâu)
+4. Sidebar ( là một thanh thường được đặt bên trái hoặc bên phải màn hình)
+5. Slider (thường hình ảnh chuyển động sang)
+6. Banner
+7. Content (Nội dung chính) 
+8. Footer (chân trang)
+
+
