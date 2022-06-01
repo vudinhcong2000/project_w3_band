@@ -48,6 +48,7 @@ html {
   display: inline-block;
   margin-top: 15px;
   border: none;
+  text-align: center;
 }
 
 .btn:hover {
@@ -93,6 +94,10 @@ html {
   margin-top: 16px !important;
 }
 
+.mt-32 {
+  margin-top: 32px !important;
+}
+
 /* main */
 #main {
   /* overflow: hidden; */
@@ -106,7 +111,8 @@ html {
   height: 46.5px;
   background-color: #000;
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden ẩn đi những thằng con */
+  /* overflow: hidden; */
 }
 
 #nav {
@@ -168,6 +174,13 @@ html {
   font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
 #header .mobile-menu-btn,
 #header .search-btn {
   float: right;
@@ -180,13 +193,12 @@ html {
   cursor: pointer;
 }
 
-
 #header .mobile-menu-btn:hover {
   background-color: #ccc;
   cursor: pointer;
 }
 
-#header .mobile-menu-btn:hover .menu-icon{
+#header .mobile-menu-btn:hover .menu-icon {
   color: #000;
 }
 
@@ -262,7 +274,7 @@ html {
 }
 
 #content .member-list {
-  margin-top: 48px;
+  margin-top: 32px;
 }
 
 #content .member-name {
@@ -316,7 +328,7 @@ html {
 /* Place */
 
 .place-list {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .place-img {
@@ -349,7 +361,6 @@ html {
   line-height: 1.4;
 }
 
-
 /* Contact-from */
 
 .contact-content {
@@ -372,12 +383,12 @@ html {
 
 .contact-from .form-control {
   padding: 10px;
-  border: 1px solid#ccc;
+  border: 1px solid #ccc;
   width: 100%;
   /* outline: none; */
 }
 
-.map-section img{
+.map-section img {
   width: 100%;
 }
 
@@ -420,7 +431,6 @@ html {
   align-items: center;
   justify-content: center;
   display: none;
-
 }
 
 .modal-container {
@@ -429,7 +439,7 @@ html {
   max-width: calc(100% - 32px);
   min-height: 200px;
   position: relative;
-  animation: modalFadeIn ease .5s;
+  animation: modalFadeIn ease 0.5s;
 }
 
 .modal-header {
